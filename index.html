@@ -5,43 +5,133 @@
     <title>Техномарт</title>
   </head>
   <body>
-    <header class="main-header container">
-      <div class="container">
-       <section class="top user">
-        <a class="logo" href="#">техномарт</a>
-        <ul>
-          <li><a href="#">поиск</a></li>
-          <li><a href="#">закладки</a></li>
-          <li><a href="#">корзина</a></li>
-          <li><a href="#">оформить заказ</a></li>
-        </ul>
-      </section>
+    <header class="main-header">
+      <div class="top-wrap">
+        <section class="top user">
+        
+          <a class="logo" href="#">техномарт</a>
+
+          <form action="http://htmlacademy.ru" method="get">
+            <input type="tsearch" name="search" id="search" placeholder="поиск">   
+          </form>
+
+          <ul>  
+            <li><a href="#">закладки</a></li>
+            <li><a href="#">корзина</a></li>
+            <li><a href="#">оформить заказ</a></li>
+          </ul>
+        
+        </section><!-- end top user -->
       </div>
-      <section class="middle user">
-        <p class="desc left">интернет магазин строительных материалов и инструментов для ремонта</p>
-        <div class="contacts center">
-          <p class="phone">+7(812)555-05-55</p>
-          <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        </div>
-        <div class="user-buttons">
-          <a href="#" class="input">Войти</a>
-          <a href="#" class="reg">Регистрация</a>
-        </div>
-      </section>
-      <section class="main-nav">
-        <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Компания</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </section>
+      
+      <div class="middle-wrap">
+        <section class="middle user">
+
+          <p class="desc left">интернет магазин строительных материалов и инструментов для ремонта</p>
+
+          <div class="contacts center">
+            <p class="phone">+7(812)555-05-55</p>
+            <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          </div>\
+
+          <div class="user-buttons">
+            <a href="#" class="input">Войти</a>
+            <a href="#" class="reg">Регистрация</a>
+          </div>
+        </section> <!-- end middle user -->
+        
+        <section class="main-nav">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Компания</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Спецпредложения</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </section> <!-- end main-nav -->
+      </div>
     </header>
     
-    
+    <div class="main-content">
+      <section class="benefits">
+        <div class="offers-item materials">
+          <p>Материалы</p>
+          <a href="#">на любой вкус</a>
+        </div>
+        <div class="offers-item tool">
+          <p>Инструменты</p>
+          <a href="#">на все случаи</a>
+        </div>
+        <div class="offers-item uquipment">
+          <p>Техника</p>
+          <a href="#">для стройки</a>
+        </div>
+      </section>
+      
+      <section class="slider">
+        <h2>Перфораторы</h2>
+        <p>Настоящие мужские игрушки</p>
+        <a href="открыть каталог"></a>
+      </section>
+      
+      <section class="benefits">
+        <div class="offers-item discount">
+        <p>Скидки 50%</p>
+        <a href="#">на 350 товаров</a>
+        </div>
+        <div class="offers-item delivery">
+          <p>Доставка</p>
+          <a href="#">бесплатно</a>
+        </div>
+      </section>
+      
+    </div> <!-- end main-content -->
 
+    <section class="popular-items">
+        <div class="popular">
+          <p>Популярные товары</p>
+          <a href="#">все популярные товары</a>
+        </div>
+        
+        <article class="popular-item">
+          <img src="" alt="" width="" height="">
+          < class="s">Перфоратор BOSCH BFG 9000</h2>
+          <p>32500 Р.</p>
+          <a href="#">25500 Р.</a>
+        </article>
+        
+        <article class="popular-item">
+          <img src="" alt="" width="" height="">
+          <h2>Перфоратор BOSCH BFG 3000</h2>
+          <p>22500 Р.</p>
+          <a href="#">15500 Р.</a>
+        </article>       
+        
+        <article class="popular-item">
+          <img src="" alt="" width="" height="">
+          <h2>Перфоратор BOSCH BFG 6000</h2>
+          <p>30500 Р.</p>
+          <a href="#">22500 Р.</a>
+        </article>
+        
+        <article class="popular-item">
+          <img src="" alt="" width="" height="">
+          <h2>Перфоратор BOSCH BFG 2000</h2>
+          
+          <a href="#">12500 Р.</a>
+        </article>                        
+    </section> <!-- end popular-items -->
+    
+    <section class="popular-makers">
+      <div class="popular">
+        <p>популярные производители:</p>
+        <a href="#">все производители</a>
+      </div>
+      
+      
+    </section> <!-- end popular-makers -->
+    
   </body>
 </html>
